@@ -24,6 +24,7 @@
 
 .hero__title {
   color: var(--secondary-500);
+  text-transform: capitalize;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 121%;
