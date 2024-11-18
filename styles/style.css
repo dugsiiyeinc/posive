@@ -73,6 +73,7 @@
 
 .hero__btn--secondary {
   background-color: var(--primary-0);
+  color: #1a1c1e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,6 +396,7 @@
 
 .faq__btn--secondary {
   background-color: var(--primary-0);
+  color: #1a1c1e;
 }
 
 .faq__accordions {

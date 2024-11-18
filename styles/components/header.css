@@ -66,6 +66,7 @@
 
 .btn--secondary {
   background-color: var(--primary-0);
+  color: #1a1c1e;
 }
 
 .btn--primary {
