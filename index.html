@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posive | Home</title>
+    <link rel="stylesheet" href="styles/modern-normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/components/header.css" />
+    <link rel="stylesheet" href="styles/components/footer.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/utilis.css" />
+
+    <script src="scripts/header.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu container">
+        <div class="logo">
+          <img src="assets/logo.svg" alt="posive" />
+          <div class="hamburger">
+            <svg
+              class="hamburger__icon"
+              data-visible="true"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke="#1A1C1E"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              class="hamburger__icon"
+              data-visible="false"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 18L18 6M6 6L18 18"
+                stroke="#1A1C1E"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="pages/features.html" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="pages/pricing.html" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="pages/blogs.html" class="nav__link">Blogs</a>
+            </li>
+            <li class="nav__item">
+              <a href="pages/helpcenter.html" class="nav__link"
+                >Help & Center</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="pages/contactus.html" class="nav__link">Contact us</a>
+            </li>
+          </ul>
+          <div class="header__buttons">
+            <button class="btn btn--secondary">Log In</button>
+            <button class="btn btn--primary">Get Started</button>
+            <select name="lang" id="lang" class="btn--lang">
+              <option class="btn--opt" value="eng">ENG</option>
+              <option class="btn--opt" value="so">SO</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content container">
+          <h4 class="hero__badge">1# Best all-in-one pos platform</h4>
+          <h1 class="hero__title">
+            Empower your business growth with our point of sale
+          </h1>
+          <p class="hero__description">
+            From managing inventory to tracking sales performance, our platform
+            provides you with the tools you need to succeed in today's
+            competitive market
+          </p>
+          <div class="hero__buttons">
+            <button class="hero__btn hero__btn--primary">
+              Start free trial
+            </button>
+            <button class="hero__btn hero__btn--secondary">
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.16669 8.00001V5.62668C3.16669 2.68001 5.25335 1.47334 7.80669 2.94668L9.86669 4.13334L11.9267 5.32001C14.48 6.79334 14.48 9.20668 11.9267 10.68L9.86669 11.8667L7.80669 13.0533C5.25335 14.5267 3.16669 13.32 3.16669 10.3733V8.00001Z"
+                  stroke="#1A1C1E"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>Watch showreel</span>
+            </button>
+          </div>
+        </div>
+        <div class="hero__thumbnail">
+          <img
+            class="hero__large-image"
+            src="assets/pos-image-large.svg"
+            alt="pos image large"
+          />
+          <img
+            class="hero__small-image"
+            src="assets/pos-image.svg"
+            alt="pos image small"
+          />
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features__wrapper container">
+          <div class="features__content">
+            <div class="features__header">
+              <h2 class="features__title">
+                The POS system that fits your business
+              </h2>
+              <p class="features__description">
+                Say goodbye to complexity and hello to efficiency with our
+                user-friendly Point of Sale dashboard.
+              </p>
+            </div>
+            <div class="features__body">
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_315_40463)">
+                      <path
+                        d="M17.2871 19.2857V15.2386C17.2871 14.7559 17.1921 14.2779 17.0073 13.8319C16.8226 13.386 16.5519 12.9808 16.2105 12.6395C15.8692 12.2981 15.464 12.0274 15.0181 11.8427C14.5721 11.6579 14.0941 11.5629 13.6114 11.5629H10.42V5.59715C10.42 4.64858 9.65 3.88 8.70286 3.88C7.75429 3.88 6.98429 4.64858 6.98429 5.59715V13.4171L6.41286 13.5243C6.01165 13.5995 5.6356 13.7738 5.31886 14.0313C5.00212 14.2887 4.75474 14.6213 4.59918 14.9987C4.44363 15.3761 4.38483 15.7864 4.42813 16.1923C4.47144 16.5981 4.61547 16.9868 4.84714 17.3229L5.07714 17.6571L6.19714 19.2857"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M3.71 7.04572C3.5339 6.2891 3.53096 5.50249 3.7014 4.74458C3.87183 3.98667 4.21124 3.27704 4.69429 2.66866C5.17734 2.06027 5.79156 1.56884 6.4911 1.23103C7.19065 0.89323 7.95745 0.717781 8.73428 0.717781C9.51112 0.717781 10.2779 0.89323 10.9775 1.23103C11.677 1.56884 12.2912 2.06027 12.7743 2.66866C13.2573 3.27704 13.5967 3.98667 13.7672 4.74458C13.9376 5.50249 13.9347 6.2891 13.7586 7.04572"
+                        stroke="white"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_315_40463">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <span class="feature__description">
+                  Manage all outlets and channels at fingertips.
+                </span>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.0834 6.59999V10.8917C16.0834 13.4583 14.6167 14.5583 12.4167 14.5583H5.09171C4.71671 14.5583 4.35838 14.525 4.02504 14.45C3.81671 14.4167 3.61672 14.3584 3.43339 14.2917C2.18339 13.825 1.42505 12.7417 1.42505 10.8917V6.59999C1.42505 4.03332 2.89171 2.93335 5.09171 2.93335H12.4167C14.2834 2.93335 15.625 3.72501 15.9834 5.53335C16.0417 5.86668 16.0834 6.20832 16.0834 6.59999Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.5843 9.10009V13.3918C18.5843 15.9584 17.1177 17.0584 14.9177 17.0584H7.59267C6.976 17.0584 6.41767 16.9751 5.93434 16.7918C4.94267 16.4251 4.26767 15.6668 4.026 14.4501C4.35933 14.5251 4.71767 14.5584 5.09267 14.5584H12.4177C14.6177 14.5584 16.0843 13.4584 16.0843 10.8918V6.60009C16.0843 6.20842 16.051 5.85845 15.9843 5.53345C17.5677 5.86678 18.5843 6.98342 18.5843 9.10009Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.74872 10.9499C9.96374 10.9499 10.9487 9.96492 10.9487 8.74989C10.9487 7.53487 9.96374 6.54988 8.74872 6.54988C7.53369 6.54988 6.54871 7.53487 6.54871 8.74989C6.54871 9.96492 7.53369 10.9499 8.74872 10.9499Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3.9834 6.91666V10.5833"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M13.5182 6.91692V10.5836"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <span class="feature__description">
+                  Accept all payments through 1 app.
+                </span>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.8334 13.3333V5.41667C15.8334 4.5 15.0834 3.75 14.1667 3.75H9.58337"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11.6666 1.66666L9.16663 3.74999L11.6666 5.83332"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M15.8334 18.3333C17.2141 18.3333 18.3334 17.2141 18.3334 15.8333C18.3334 14.4526 17.2141 13.3333 15.8334 13.3333C14.4527 13.3333 13.3334 14.4526 13.3334 15.8333C13.3334 17.2141 14.4527 18.3333 15.8334 18.3333Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.16663 6.66666V14.5833C4.16663 15.5 4.91663 16.25 5.83329 16.25H10.4166"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8.33337 18.3333L10.8334 16.25L8.33337 14.1667"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.16663 6.66666C5.54734 6.66666 6.66663 5.54737 6.66663 4.16666C6.66663 2.78594 5.54734 1.66666 4.16663 1.66666C2.78591 1.66666 1.66663 2.78594 1.66663 4.16666C1.66663 5.54737 2.78591 6.66666 4.16663 6.66666Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <p class="feature__description">Plug-and-play apps</p>
+              </div>
+            </div>
+          </div>
+          <div class="features__thumbnail">
+            <img
+              class="features__image"
+              src="https://images.unsplash.com/photo-1556742208-999815fca738?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <h2 class="work__title">The inner workings of our POS</h2>
+        <div class="work__body container">
+          <div class="work__thumbnail">
+            <img
+              class="work__image"
+              src="https://images.unsplash.com/photo-1556741533-411cf82e4e2d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="work__content">
+            <div class="work__item">
+              <div class="work__icon">
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 25.425H9.315C4.26 25.425 3 24.165 3 19.11V10.11C3 5.05504 4.26 3.79504 9.315 3.79504H25.11C30.165 3.79504 31.425 5.05504 31.425 10.11"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 32.205V25.425"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 19.425H15"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.1101 32.205H15.0001"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M32.9999 19.2V27.765C32.9999 31.32 32.1149 32.205 28.5599 32.205H23.2349C19.6799 32.205 18.7949 31.32 18.7949 27.765V19.2C18.7949 15.645 19.6799 14.76 23.2349 14.76H28.5599C32.1149 14.76 32.9999 15.645 32.9999 19.2Z"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.8668 27.375H25.8802"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="work__info">
+                <h3 class="work__sub-title">POS software For all platform</h3>
+                <p class="work__description">
+                  Turn your mobile device into a point of sale and download the
+                  shopify POS app onto any smartphone or tablet
+                </p>
+              </div>
+            </div>
+
+            <div class="work__item">
+              <div class="work__icon">
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.25 6H24.75C25.68 6 26.505 6.03 27.24 6.135C31.185 6.57 32.25 8.43 32.25 13.5V22.5C32.25 27.57 31.185 29.43 27.24 29.865C26.505 29.97 25.68 30 24.75 30H11.25C10.32 30 9.495 29.97 8.76 29.865C4.815 29.43 3.75 27.57 3.75 22.5V13.5C3.75 8.43 4.815 6.57 8.76 6.135C9.495 6.03 10.32 6 11.25 6Z"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M20.25 15H25.5"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.5 23.25H10.53H25.5"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.1419 15H15.1554"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.6419 15H10.6554"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="work__info">
+                <h3 class="work__sub-title">Customizable terminal</h3>
+                <p class="work__description">
+                  Personalize the home screen to keep popular products and
+                  important discounts at your fingertips.
+                </p>
+              </div>
+            </div>
+
+            <div class="work__item">
+              <div class="work__icon">
+                <svg
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 22.5C20.4853 22.5 22.5 20.4853 22.5 18C22.5 15.5147 20.4853 13.5 18 13.5C15.5147 13.5 13.5 15.5147 13.5 18C13.5 20.4853 15.5147 22.5 18 22.5Z"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 19.3199V16.6799C3 15.1199 4.275 13.8299 5.85 13.8299C8.565 13.8299 9.675 11.9099 8.31 9.5549C7.53 8.2049 7.995 6.4499 9.36 5.6699L11.955 4.1849C13.14 3.4799 14.67 3.8999 15.375 5.0849L15.54 5.3699C16.89 7.7249 19.11 7.7249 20.475 5.3699L20.64 5.0849C21.345 3.8999 22.875 3.4799 24.06 4.1849L26.655 5.6699C28.02 6.4499 28.485 8.2049 27.705 9.5549C26.34 11.9099 27.45 13.8299 30.165 13.8299C31.725 13.8299 33.015 15.1049 33.015 16.6799V19.3199C33.015 20.8799 31.74 22.1699 30.165 22.1699C27.45 22.1699 26.34 24.0899 27.705 26.4449C28.485 27.8099 28.02 29.5499 26.655 30.3299L24.06 31.8149C22.875 32.5199 21.345 32.0999 20.64 30.9149L20.475 30.6299C19.125 28.2749 16.905 28.2749 15.54 30.6299L15.375 30.9149C14.67 32.0999 13.14 32.5199 11.955 31.8149L9.36 30.3299C7.995 29.5499 7.53 27.7949 8.31 26.4449C9.675 24.0899 8.565 22.1699 5.85 22.1699C4.275 22.1699 3 20.8799 3 19.3199Z"
+                    stroke="#EA7E41"
+                    stroke-width="3"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="work__info">
+                <h3 class="work__sub-title">Plug-and-play apps</h3>
+                <p class="work__description">
+                  Add functionality as your needs change, from loyalty apps to
+                  logistics and time tracking.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="testimonials__title">Our customers say about us</h2>
+          <p class="testimonials__description">
+            Build trust, increase conversions, and watch your business thrive.
+          </p>
+          <div class="cards">
+            <div class="card">
+              <div class="card__rating">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+              </div>
+              <p class="card__qoute">
+                "User-friendly design coupled with powerful analytics tools.
+                Point of Sales Platform offers valuable insights to drive
+                business decisions."
+              </p>
+              <div class="author">
+                <img
+                  class="author__image"
+                  src="https://images.unsplash.com/photo-1642060603505-e716140d45d2?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+                <div class="author__info">
+                  <h4 class="author__name">Eren Yaeger</h4>
+                  <p class="author__title">Founder Carina Coffe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__rating">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+              </div>
+              <p class="card__qoute">
+                "User-friendly design coupled with powerful analytics tools.
+                Point of Sales Platform offers valuable insights to drive
+                business decisions."
+              </p>
+              <div class="author">
+                <img
+                  class="author__image"
+                  src="https://images.unsplash.com/photo-1642060603505-e716140d45d2?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+                <div class="author__info">
+                  <h4 class="author__name">Eren Yaeger</h4>
+                  <p class="author__title">Founder Carina Coffe</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__rating">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.2974 2.63248L11.6174 5.27248C11.7974 5.63998 12.2774 5.99248 12.6824 6.05998L15.0749 6.45748C16.6049 6.71248 16.9649 7.82248 15.8624 8.91748L14.0024 10.7775C13.6874 11.0925 13.5149 11.7 13.6124 12.135L14.1449 14.4375C14.5649 16.26 13.5974 16.965 11.9849 16.0125L9.74243 14.685C9.33743 14.445 8.66993 14.445 8.25743 14.685L6.01493 16.0125C4.40993 16.965 3.43493 16.2525 3.85493 14.4375L4.38743 12.135C4.48493 11.7 4.31243 11.0925 3.99743 10.7775L2.13743 8.91748C1.04243 7.82248 1.39493 6.71248 2.92493 6.45748L5.31743 6.05998C5.71493 5.99248 6.19493 5.63998 6.37493 5.27248L7.69493 2.63248C8.41493 1.19998 9.58493 1.19998 10.2974 2.63248Z"
+                    fill="#F2A66F"
+                  />
+                </svg>
+              </div>
+              <p class="card__qoute">
+                "User-friendly design coupled with powerful analytics tools.
+                Point of Sales Platform offers valuable insights to drive
+                business decisions."
+              </p>
+              <div class="author">
+                <img
+                  class="author__image"
+                  src="https://images.unsplash.com/photo-1642060603505-e716140d45d2?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+                <div class="author__info">
+                  <h4 class="author__name">Eren Yaeger</h4>
+                  <p class="author__title">Founder Carina Coffe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="arrows">
+            <div class="arrow prev__arrow">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.57 5.93018L3.5 12.0002L9.57 18.0702"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.5 12H3.66998"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="arrow next__arrow">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.43 5.93018L20.5 12.0002L14.43 18.0702"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.5 12H20.33"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="faq__wrapper container">
+          <div class="faq__content">
+            <h2 class="faq__title">Frequently asked questions</h2>
+            <p class="faq__description">
+              Learn more about our FAQs list and if there is anything you want
+              to ask, get in touch with our Customer support
+            </p>
+            <div class="faq__buttons">
+              <button class="faq__btn faq__btn--primary">More FAQs</button>
+              <button class="faq__btn faq__btn--secondary">Get in touch</button>
+            </div>
+          </div>
+          <div class="faq__accordions">
+            <div class="accordion active">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  What is a Point of Sales (POS) platform?
+                </h4>
+                <svg
+                  class="accordion__icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer">
+                A Point of Sales platform is a software solution used by
+                businesses to process transactions, manage inventory, and
+                streamline sales operations. It typically includes features like
+                inventory management, sales reporting, and customer relationship
+                management (CRM) tools.
+              </p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  How does a Point of Sales platform benefit my business?
+                </h4>
+                <svg
+                  class="accordion__icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer"></p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  Is a Point of Sales platform suitable for my business size?
+                </h4>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer"></p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  How do I choose the right Point of Sales platform for my
+                  business?
+                </h4>
+                <svg
+                  class="accordion__icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer"></p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  Can a Point of Sales platform integrate with other business
+                  systems?
+                </h4>
+                <svg
+                  class="accordion__icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer"></p>
+            </div>
+            <div class="accordion">
+              <div class="accordion__header">
+                <h4 class="accordion__question">
+                  Is training required to use a Point of Sales platform?
+                </h4>
+                <svg
+                  class="accordion__icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.92 0.950195L10.4 7.4702C9.63 8.2402 8.37 8.2402 7.6 7.4702L1.08 0.950195"
+                    stroke="#1A1C1E"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <p class="accordion__answer"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="cta__wrapper container">
+          <div class="cta__content">
+            <h2 class="cta__title">Stary selling better with Posive POS</h2>
+            <p class="cta__description">
+              Subscribe to our email list to receive advice from other business
+              owners, support articles, tips from industry experts, and more.
+            </p>
+            <form class="cta__form">
+              <input
+                class="cta__input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email address"
+              />
+              <button class="cta__btn" type="submit">Submit</button>
+            </form>
+            <p class="cta__terms">
+              *This information may be transcribed, used, and stored by third
+              parties. learn our
+              <a class="cta__terms--link" href="#">Privacy Policy</a>
+            </p>
+          </div>
+
+          <div class="cta__thumbnail">
+            <img class="cta__image" src="assets/pos-image.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__list container">
+        <li class="footer__item company">
+          <img class="company__logo" src="assets/logo-white.svg" alt="Posive" />
+          <p class="company__description">
+            Point of Sales platform is a software solution used by businesses to
+            process transactions, manage inventory, and streamline sales
+            operations
+          </p>
+          <ul class="social__list">
+            <li class="social__item company__facebook">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"
+                />
+              </svg>
+            </li>
+            <li class="social__item company__twitter">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23"
+                />
+              </svg>
+            </li>
+            <li class="social__item company__youtube">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73"
+                />
+              </svg>
+            </li>
+            <li class="social__item company__instagram">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                />
+              </svg>
+            </li>
+            <li class="social__item company__linkedIn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="4" cy="4" r="2" fill="white" fill-opacity="0">
+                  <animate
+                    fill="freeze"
+                    attributeName="fill-opacity"
+                    dur="0.15s"
+                    values="0;1"
+                  />
+                </circle>
+                <g
+                  fill="none"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                >
+                  <path
+                    stroke-dasharray="12"
+                    stroke-dashoffset="12"
+                    d="M4 10v10"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="0.15s"
+                      dur="0.2s"
+                      values="12;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="12"
+                    stroke-dashoffset="12"
+                    d="M10 10v10"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="0.45s"
+                      dur="0.2s"
+                      values="12;0"
+                    />
+                  </path>
+                  <path
+                    stroke-dasharray="24"
+                    stroke-dashoffset="24"
+                    d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5"
+                  >
+                    <animate
+                      fill="freeze"
+                      attributeName="stroke-dashoffset"
+                      begin="0.65s"
+                      dur="0.2s"
+                      values="24;0"
+                    />
+                  </path>
+                </g>
+              </svg>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__item about">
+          <h3 class="about__title">About Us</h3>
+          <ul class="about__list">
+            <li class="about__item">
+              <a class="about__link" href="#">Home</a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#">Features</a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#">Pricing</a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#">Resource</a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="footer__item other">
+          <h3 class="other__title">Other</h3>
+          <ul class="other__list">
+            <li class="other__item">
+              <a class="other__link" href="#">Privacy and Policy</a>
+            </li>
+            <li class="other__item">
+              <a class="other__link" href="#">Term and Conditions</a>
+            </li>
+            <li class="other__item">
+              <a class="other__link" href="#">Security</a>
+            </li>
+            <li class="other__item">
+              <a class="other__link" href="#">Accessibility</a>
+            </li>
+            <li class="other__item">
+              <a class="other__link" href="#">Cookies</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="footer__item contact">
+          <h3 class="contact__title">Contact</h3>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"
+                />
+              </svg>
+              <a class="contact__link" href="#">(406) 555-0120</a>
+            </li>
+            <li class="contact__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z"
+                />
+              </svg>
+              <a class="contact__link" href="#">Logoipsum@gmail.com</a>
+            </li>
+            <li class="contact__item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0-6 0" />
+                  <path
+                    d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0"
+                  />
+                </g>
+              </svg>
+              <a class="contact__link contact__link--max-width" href="#">
+                2972 Westheimer Rd. Santa Ana, Illinois 85486
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer__scroll">
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.0589 22.1104L17.8002 16.3691L23.5415 22.1104C24.1186 22.6875 25.0508 22.6875 25.6279 22.1104C26.205 21.5334 26.205 20.6011 25.6279 20.024L18.836 13.2321C18.2589 12.655 17.3267 12.655 16.7496 13.2321L9.95772 20.024C9.38063 20.6011 9.38063 21.5334 9.95772 22.1104C10.5348 22.6727 11.4818 22.6875 12.0589 22.1104Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+    </footer>
+  </body>
+</html>

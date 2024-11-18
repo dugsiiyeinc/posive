@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  /* colors */
+
+  --primary-900: #70170c;
+  --primary-800: #872814;
+  --primary-700: #a84020;
+  --primary-600: #c95d2f;
+  --primary-500: #ea7e41;
+  --primary-400: #f2a66f;
+  --primary-300: #f8c18c;
+  --primary-200: #fcdbb3;
+  --primary-100: #fdefd9;
+  --primary-0: #ffffff;
+
+  --success-900: #345302;
+  --success-800: #055467;
+  --success-700: #097380;
+  --success-600: #0d9699;
+  --success-500: #12b3a8;
+  --success-400: #44d1bb;
+  --success-300: #6ae8c9;
+  --success-200: #9ef7d9;
+  --success-100: #cefbe7;
+
+  --error-900: #5f103b;
+  --error-800: #721a43;
+  --error-700: #8e2a4e;
+  --error-600: #aa3d5a;
+  --error-500: #c65468;
+  --error-400: #dc7d85;
+  --error-300: #ed9c9b;
+  --error-200: #f9c6bf;
+  --error-100: #fce4df;
+
+  --warning-900: #713f09;
+  --warning-800: #88520f;
+  --warning-700: #a96e18;
+  --warning-600: #ca8823;
+  --warning-500: #ecac31;
+  --warning-400: #f3c762;
+  --warning-300: #f9d982;
+  --warning-200: #fdeaac;
+  --warning-100: #fef5d5;
+
+  --information-900: #0e216e;
+  --information-800: #183285;
+  --information-700: #2a60b7;
+  --information-600: #3863c6;
+  --information-500: #4d81e7;
+  --information-400: #78a5f0;
+  --information-300: #94bdf7;
+  --information-200: #b9d6fc;
+  --information-100: #dbecfd;
+
+  --secondary-900: #04070e;
+  --secondary-800: #080b11;
+  --secondary-700: #0d1015;
+  --secondary-600: #131619;
+  --secondary-500: #1a1c1e;
+  --secondary-400: #6c7278;
+  --secondary-300: #acb5bb;
+  --secondary-200: #dce4e8;
+  --secondary-100: #edf1f3;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
