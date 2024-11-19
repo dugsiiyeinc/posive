@@ -1,7 +1,6 @@
 .footer {
   background-color: var(--secondary-500);
   color: var(--primary-0);
-  padding: 65px 0px;
   position: relative;
 }
 
@@ -103,10 +102,6 @@
 }
 
 @media (max-width: 475px) {
-  .footer {
-    padding: 65px 24px;
-  }
-
   .about__link,
   .other__link,
   .contact__link {

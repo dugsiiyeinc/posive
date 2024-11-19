@@ -22,6 +22,35 @@
   padding-inline: 0.5rem;
 }
 
+section {
+  padding-block: 100px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  border: 1px solid #dce4e8;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -2%;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  background-color: var(--primary-0);
+  color: #1a1c1e;
+}
+
+.btn--primary {
+  background-color: var(--primary-500);
+  color: var(--primary-0);
+  border-color: var(--primary-600);
+}
+
 /* 2xl */
 @media (max-width: 1440px) {
   .container {
@@ -47,6 +76,10 @@
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
+  }
+
+  section {
+    padding-block: 65px;
   }
 }
 

@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  margin-top: 70px;
   text-align: center;
   padding-inline: 24px;
 }
@@ -51,29 +50,7 @@
   margin-top: 32px;
 }
 
-.hero__btn {
-  background: none;
-  border: none;
-  outline: none;
-  border: 1px solid #dce4e8;
-  border-radius: 10px;
-  padding: 13px 24px;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: -2%;
-  cursor: pointer;
-}
-
-.hero__btn--primary {
-  background-color: var(--primary-500);
-  color: var(--primary-0);
-  border-color: var(--primary-600);
-}
-
 .hero__btn--secondary {
-  background-color: var(--primary-0);
-  color: #1a1c1e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +73,6 @@
 .features {
   background-color: var(--secondary-500);
   color: var(--primary-0);
-  padding: 100px 72px;
 }
 
 .features__wrapper {
@@ -178,10 +154,6 @@
   border-radius: 10px;
 }
 
-.work {
-  padding: 100px 72px;
-}
-
 .work__title {
   color: var(--secondary-500);
   font-size: 3.5rem;
@@ -250,7 +222,7 @@
 .testimonials {
   background-color: var(--secondary-500);
   color: var(--primary-0);
-  padding: 80px 84px;
+  /* padding: 80px 84px; */
 }
 
 .testimonials__title {
@@ -344,7 +316,7 @@
 
 .faq {
   background-color: var(--secondary-100);
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
 }
 
 .faq__wrapper {
@@ -373,30 +345,6 @@
 .faq__buttons {
   display: flex;
   gap: 16px;
-}
-
-.faq__btn {
-  background: none;
-  outline: none;
-  border: 1px solid #dce4e8;
-  padding: 13px 24px;
-  border-radius: 10px;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: -2%;
-  cursor: pointer;
-}
-
-.faq__btn--primary {
-  background-color: var(--primary-500);
-  color: var(--primary-0);
-  border-color: var(--primary-600);
-}
-
-.faq__btn--secondary {
-  background-color: var(--primary-0);
-  color: #1a1c1e;
 }
 
 .faq__accordions {
@@ -532,10 +480,6 @@
     font-size: 2.8rem;
   }
 
-  .features {
-    padding: 80px 16px;
-  }
-
   .features__title {
     font-size: 2rem;
     line-height: 121%;
@@ -544,10 +488,6 @@
   .features__description {
     font-size: 0.8125rem;
     max-width: 36ch;
-  }
-
-  .work {
-    padding: 80px 16px;
   }
 
   .work__title {
@@ -622,10 +562,6 @@
   .hero__description {
     font-size: 0.9375rem;
     max-width: 50ch;
-  }
-
-  .features {
-    padding: 80px 16px;
   }
 
   .features__wrapper {
@@ -731,10 +667,6 @@
     display: block;
   }
 
-  .testimonials {
-    padding: 48px 24px;
-  }
-
   .testimonials__title {
     text-align: left;
     font-size: 2rem;
@@ -760,10 +692,6 @@
   .author__image {
     width: 32px;
     height: 32px;
-  }
-
-  .faq {
-    padding: 80px 16px;
   }
 
   .faq__title {
